@@ -5,9 +5,8 @@
 </template>
 
 <style lang="postcss">
-#__layout {
-  @apply min-h-screen;
-  max-width: 64rem;
-  @apply mx-auto;
+.layout__container {
+  @apply min-h-screen max-w-screen-sm;
+  @apply mx-auto pt-8;
 }
 </style>
